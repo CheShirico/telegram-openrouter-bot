@@ -1,0 +1,16 @@
+{
+  "name": "telegram-openrouter-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node --env-file=.env bot.js"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "grammy": "^1.30.0"
+  }
+}
